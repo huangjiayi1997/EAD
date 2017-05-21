@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+.topmenu{
+	padding-top:0;
+	margin-top:0;
+	background-color:#404040;
+	overflow:hidden;
+	margin-bottom:3%;
+}
+.topmenu a{
+	float:right;
+	font-sie:20px;
+	color: #f2f2f2;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+.topmenu a:hover{
+	color:#ff751a;
+}
+.container{
+	background:-webkit-linear-gradident(left top, #83a4d4,#b6fbff);
+	background:-o-linear-gradient(bottom right,#83a4d4,#b6fbff);
+	background:-moz-linear-gradient(bottom right,#83a4d4, #b6fbff);
+	background:linear-gradient(to bottom right,#83a4d4,#b6fbff);
+}
+
+#publicform{
+	padding-top:.5em;
+	border-style:dotted;
+	position:relative;
+	margin-left:3em;
+	margin-right:3em;	
+}
+#publicform form{
+	font-size:30px;
+	color:white;
+	padding-left:15%;
+	padding-bottom:5%;
+	margin-left:5%;
+	padding-top:5%;
+	line-height:200%;
+}
+#selectbox1 {
+	width:60%;
+	font-size:20px;
+	padding:16px 20px;
+	border:none;
+	border-radius:4px;
+	background-color:#f2f2f2;
+}
+.label-select-box1{
+	padding-right:.43em;
+}
+.label-select-box2{
+	padding-right:1.5em;
+}
+.label-select-box3{
+padding-right:3.3em;
+}
+#adminloginform{
+	padding-top:15.5%;
+	padding-bottom:15.5%;	
+}
+#welcomemsg{
+		padding-top:15.5%;
+
+}
+#adminform{
+	padding-left:35%;
+	padding-right:20%;
+}
+.foot{
+	margin-top:2%;
+	background-color:#404040;
+	color:#f2f2f2;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+.flink{
+	text-align:centre;
+	color:#007399;
+	text-decoration:none;
+}
+.flink:hover{
+	color:#ff751a;
+}
